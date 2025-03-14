@@ -1,0 +1,19 @@
+[palette]
+bg0 = "#f0f0f0"
+bg1 = "#e0e0e0"
+bg2 = "#d0d0d0"
+bg3 = "#c0c0c0"
+bg4 = "#eaeaea"
+fg0 = "#444444"
+fg1 = "#333333"
+fg2 = "#222222"
+fg3 = "#111111"
+fg4 = "#888888"
+
+red0    = "#9a5169" # oklch(53% 0.1 0)
+orange0 = "#9d5445" # oklch(53% 0.1 33)
+yellow0 = "#b5803e" # oklch(64% 0.105 70)
+green0  = "#4b7a40" # oklch(53% 0.1 140)
+aqua0   = "#207e5d" # oklch(53% 0.1 165)
+blue0   = "#5b66a5" # oklch(53% 0.1 275)
+purple0 = "#815993" # oklch(53% 0.1 315)
