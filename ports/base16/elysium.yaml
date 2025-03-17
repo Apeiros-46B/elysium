@@ -1,0 +1,18 @@
+scheme: "Elysium"
+author: "Apeiros-46B"
+base00: "ffffff" # bg0
+base01: "f4f4f4" # bg1
+base02: "e4dce8" # bg_purple
+base03: "777777" # fg4
+base04: "111111" # fg2
+base05: "333333" # fg0
+base06: "888888" # fg5
+base07: "ebebeb" # bg2
+base08: "904961" # red
+base09: "79508a" # purple
+base0A: "b5803e" # yellow
+base0B: "117555" # aqua
+base0C: "427138" # green
+base0D: "427138" # green
+base0E: "535d9c" # blue
+base0F: "934c3d" # orange

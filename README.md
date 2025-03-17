@@ -2,11 +2,6 @@ Heavily WIP.
 
 elysium is a neutral, muted light theme.
 
-# Flavors
-- **wisp**: Low contrast
-- **haze**: Medium contrast
-- **cloud**: High contrast
-
 # Ports
 - None yet.
 
