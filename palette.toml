@@ -7,14 +7,11 @@ bg4 = "#dfdfdf" # -5
 bg5 = "#dcdcdc" # -3
 bg6 = "#dbdbdb" # -1
 fg0 = "#333333"
-fg1 = "#222222"
-fg2 = "#111111"
+fg1 = "#202020"
 fg3 = "#000000"
 fg4 = "#777777"
-fg5 = "#888888"
 
-# TODO: make brighter variants of these
-
+# TODO: make brighter variants of these (e.g. for terminal brights)
 red    = "#904961" # oklch(50% 0.1 0)
 orange = "#934c3d" # oklch(50% 0.1 33)
 yellow = "#b5803e" # oklch(64% 0.105 70)
