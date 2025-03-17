@@ -3,10 +3,10 @@ author: "Apeiros-46B"
 base00: "ffffff" # bg0
 base01: "f4f4f4" # bg1
 base02: "e4dce8" # bg_purple
-base03: "777777" # fg4
-base04: "111111" # fg2
+base03: "777777" # fg3
+base04: "777777" # fg3
 base05: "333333" # fg0
-base06: "888888" # fg5
+base06: "000000" # fg2
 base07: "ebebeb" # bg2
 base08: "904961" # red
 base09: "79508a" # purple
