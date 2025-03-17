@@ -26,7 +26,7 @@ Foreground and background shades are still temporary at this point and you can b
 |fg3       |`#777777`|hex                             |weak foreground, comments, statusline text                         |
 |fg4       |`#888888`|hex                             |faded foreground, unimportant information                          |
 |red       |`#904961`|`oklch(50% 0.1 0)`              |errors, namespaces, fields, diff deleted                           |
-|orange    |`#934c3d`|`oklch(50% 0.1 33)`             |warnings, operators                                                |
+|orange    |`#934c3d`|`oklch(50% 0.1 33)`             |warnings, operators, builtin type names, labels (for goto, switch) |
 |yellow    |`#b5803e`|`oklch(64% 0.105 70)`           |type names (structs, enums, classes, interfaces, traits)           |
 |green     |`#427138`|`oklch(50% 0.1 140)`            |hints, functions/methods, escape sequences, diff inserted          |
 |aqua      |`#117555`|`oklch(50% 0.1 165)`            |info, string literals, character literals                          |
