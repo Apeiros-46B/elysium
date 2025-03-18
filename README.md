@@ -4,7 +4,10 @@ WIP
 neutral, muted light theme.
 
 # ports
-- [base16](https://github.com/Apeiros-46B/elysium/tree/main/ports/base16)
+- editors
+  - [helix](https://github.com/Apeiros-46B/elysium/tree/main/ports/helix)
+- miscellaneous
+  - [base16](https://github.com/Apeiros-46B/elysium/tree/main/ports/base16)
 
 # design philosophy
 1. Background and foreground tones should be neutral. It should be up to the user to alter temperature through a global program like [redshift](https://github.com/jonls/redshift).
