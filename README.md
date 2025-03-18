@@ -1,7 +1,8 @@
-WIP
-
 # elysium
-neutral, muted light theme.
+elysium is a neutral, muted light theme. It is currently a work in progress.
+
+# preview
+![preview image of elysium, showing code in the helix editor](assets/helix_preview.png)
 
 # ports
 - editors
