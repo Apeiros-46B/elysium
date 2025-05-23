@@ -9,7 +9,7 @@
 "constant.builtin" = { fg = "purple", modifiers = ["bold"] }
 "constant.numeric" = "purple"
 "constant.character" = "aqua"
-"constant.character.escape" = { fg = "green", modifiers = ["bold"] }
+"constant.character.escape" = { fg = "yellow", modifiers = ["bold"] }
 "string" = "aqua"
 "string.regexp" = "green"
 "string.special" = "purple"

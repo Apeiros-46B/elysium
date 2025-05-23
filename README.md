@@ -30,19 +30,19 @@ Foreground and background shades are still temporary at this point and you can b
 |fg2       |`#000000`|hex                             |strong foreground                                                                         |
 |fg3       |`#777777`|hex                             |weak foreground, comments, statusline text                                                |
 |fg4       |`#888888`|hex                             |faded foreground, unimportant information                                                 |
-|red       |`#904961`|`oklch(50% 0.1 0)`              |errors, namespaces, fields, diff deleted, breakpoint                                      |
-|orange    |`#934c3d`|`oklch(50% 0.1 33)`             |warnings, operators, labels (for goto, switch)                                            |
-|yellow    |`#b5803e`|`oklch(64% 0.105 70)`           |type names (structs, enums, classes, interfaces, traits), debugger paused, jump/hop label |
-|green     |`#427138`|`oklch(50% 0.1 140)`            |functions/methods, escape sequences, diff inserted                                        |
-|aqua      |`#117555`|`oklch(50% 0.1 165)`            |info, string literals, character literals                                                 |
+|red       |`#904961`|`oklch(50% 0.1 0)`              |errors, namespaces, fields, diff deleted, breakpoint, semantic comment                    |
+|orange    |`#934c3d`|`oklch(50% 0.1 33)`             |operators, labels (for goto, switch), storage classifiers (const/mut)                     |
+|yellow    |`#b5803e`|`oklch(64% 0.105 70)`           |warnings, type names, escape sequences, debugger paused, jump/hop label                   |
+|green     |`#427138`|`oklch(50% 0.1 140)`            |functions/methods, diff inserted, todos                                                   |
+|aqua      |`#117555`|`oklch(50% 0.1 165)`            |info, string literals, character literals,                                                |
 |blue      |`#535d9c`|`oklch(50% 0.1 275)`            |hints, keywords, diff modified                                                            |
-|purple    |`#79508a`|`oklch(50% 0.1 315)`            |numeric literals, boolean literals, macros, preprocessor directives                       |
+|purple    |`#79508a`|`oklch(50% 0.1 315)`            |numeric literals, boolean literals, macros, preprocessor directives, constants            |
 |bg\_red   |`#e9dbdf`|20% opacity red on top of bg0   |diff deleted (background)                                                                 |
 |bg\_orange|`#e9dbd8`|20% opacity orange on top of bg0|TBD                                                                                       |
 |bg\_yellow|`#f0e6d8`|20% opacity yellow on top of bg0|debugger paused (background), jump/hop label (background)                                 |
 |bg\_green |`#d9e3d7`|20% opacity green on top of bg0 |diff inserted (background)                                                                |
-|bg\_aqua  |`#cfe3dd`|20% opacity aqua on top of bg0  |TBD                                                                                       |
-|bg\_blue  |`#dddfeb`|20% opacity blue on top of bg0  |selection (menus/lists), diff modified (background)                                       |
+|bg\_aqua  |`#cfe3dd`|20% opacity aqua on top of bg0  |text search result (background)                                                           |
+|bg\_blue  |`#dddfeb`|20% opacity blue on top of bg0  |menus/list selection (background), diff modified (background)                             |
 |bg\_purple|`#e4dce8`|20% opacity purple on top of bg0|selection (text)                                                                          |
 
 # FAQ
