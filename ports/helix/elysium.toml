@@ -48,11 +48,11 @@
 "diff.minus" = { fg = "red", bg = "bg_red" }
 "diff.minus.gutter" = "red"
 
-"warning" = "orange"
+"warning" = "yellow"
 "error" = "red"
 "info" = "aqua"
 "hint" = "blue"
-"diagnostic.warning".underline = { color = "orange", style = "curl" }
+"diagnostic.warning".underline = { color = "yellow", style = "curl" }
 "diagnostic.error".underline = { color = "red", style = "curl" }
 "diagnostic.info".underline = { color = "aqua", style = "curl" }
 "diagnostic.hint".underline = { color = "blue", style = "curl" }

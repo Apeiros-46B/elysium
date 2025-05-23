@@ -242,6 +242,7 @@ if has('nvim')
 	hi! link @variable.builtin Purple
 	hi! link @variable.parameter Fg
 	hi! link @variable.parameter.builtin Yellow
+	hi! link @variable.member Red
 
 	hi! link @constant Purple
 	hi! link @constant.builtin PurpleEmph
@@ -291,6 +292,7 @@ if has('nvim')
 	hi! link @keyword.import BlueEmph
 	hi! link @keyword.type BlueEmph
 	hi! link @keyword.modifier OrangeEmph
+	hi! link @keyword.modifier.java BlueEmph
 	hi! link @keyword.repeat BlueEmph
 	hi! link @keyword.return BlueEmph
 	hi! link @keyword.debug BlueEmph
