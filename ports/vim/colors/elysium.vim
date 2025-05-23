@@ -292,7 +292,6 @@ if has('nvim')
 	hi! link @keyword.import BlueEmph
 	hi! link @keyword.type BlueEmph
 	hi! link @keyword.modifier OrangeEmph
-	hi! link @keyword.modifier.java BlueEmph
 	hi! link @keyword.repeat BlueEmph
 	hi! link @keyword.return BlueEmph
 	hi! link @keyword.debug BlueEmph
@@ -326,7 +325,7 @@ if has('nvim')
 
 	call elysium#apply('@markup.link', s:palette.purple, s:palette.none, 'underline')
 	call elysium#apply('@markup.link.url', s:palette.purple, s:palette.none, 'underline')
-	hi! link @markup.link.label FgEmph
+	call elysium#apply('@markup.link.label', s:palette.fg2, s:palette.none, 'underline')
 
 	hi! link @markup.raw Blue
 	hi! link @markup.raw.block Blue
@@ -342,4 +341,7 @@ if has('nvim')
 	hi! link @tag.builtin BlueEmph
 	hi! link @tag.attribute Red
 	hi! link @tag.delimiter FgDim
+
+	hi! link @variable.member.nix Fg
+	hi! link @keyword.modifier.java BlueEmph
 endif
