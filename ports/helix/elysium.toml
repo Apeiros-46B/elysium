@@ -85,10 +85,10 @@
 "ui.virtual.inlay-hint" = "fg3"
 "ui.virtual.jump-label" = { fg = "yellow", bg = "bg_yellow", modifiers = ["bold"] }
 "ui.menu" = { fg = "fg1", bg = "bg1" }
-"ui.menu.selected" = { fg = "fg1", bg = "bg_green", modifiers = ["bold"] }
+"ui.menu.selected" = { fg = "fg1", bg = "bg_blue", modifiers = ["bold"] }
 "ui.selection".bg = "bg_purple"
 "ui.selection.primary".bg = "bg_purple"
-"ui.highlight".bg = "bg_green"
+"ui.highlight".bg = "bg_blue"
 "ui.highlight.frameline".bg = "bg_yellow"
 "ui.cursorline".bg = "bg1"
 "ui.cursorcolumn".bg = "bg1"

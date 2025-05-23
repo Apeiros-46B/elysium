@@ -42,8 +42,8 @@ Foreground and background shades are still temporary at this point and you can b
 |bg\_yellow|`#f0e6d8`|20% opacity yellow on top of bg0|debugger paused (background), jump/hop label (background)                                 |
 |bg\_green |`#d9e3d7`|20% opacity green on top of bg0 |diff inserted (background)                                                                |
 |bg\_aqua  |`#cfe3dd`|20% opacity aqua on top of bg0  |TBD                                                                                       |
-|bg\_blue  |`#dddfeb`|20% opacity blue on top of bg0  |diff modified (background)                                                                |
-|bg\_purple|`#e4dce8`|20% opacity purple on top of bg0|selection                                                                                 |
+|bg\_blue  |`#dddfeb`|20% opacity blue on top of bg0  |selection (menus/lists), diff modified (background)                                       |
+|bg\_purple|`#e4dce8`|20% opacity purple on top of bg0|selection (text)                                                                          |
 
 # FAQ
 - Q: Dark mode?  
