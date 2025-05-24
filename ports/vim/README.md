@@ -24,7 +24,7 @@ pkgs.vimUtils.buildVimPlugin {
     src = pkgs.fetchFromGitHub {
         owner = "Apeiros-46B";
         repo = "elysium";
-        rev = "6309af58cf35c9cff4d011f7cb1b4c86cb484a22";
+        rev = "...";
         sha256 = "...";
     };
     sourceRoot = "source/ports/vim";
