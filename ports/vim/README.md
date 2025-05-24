@@ -2,7 +2,7 @@
 
 Vim port of the Elysium colorscheme.
 
-## Installation
+## installation
 
 vim-plug:
 ```vim
@@ -19,7 +19,7 @@ lazy.nvim:
 
 Nix:
 ```nix
-buildPlugin {
+pkgs.vimUtils.buildVimPlugin {
     name = "elysium.vim";
     src = pkgs.fetchFromGitHub {
         owner = "Apeiros-46B";
@@ -31,7 +31,7 @@ buildPlugin {
 }
 ```
 
-## Configuration
+## configuration
 
 - `g:elysium_emphasis_style` - emphasis style in syntax highlighting
   - type: string
@@ -44,6 +44,6 @@ buildPlugin {
   - type: dictionary
   - valid values: see `elysium#get_palette()` in `autoload/elysium.vim`
   - default: `{}`
-- `g:elysium_256color` - fallback to 256color when truecolor is unavailable?
+- `g:elysium_256color` - when no truecolor, fall back to visually similar 256color, or specially configured (nonstandard) 256color?
   - type: boolean
   - default: `v:true`

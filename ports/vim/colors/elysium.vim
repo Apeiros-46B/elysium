@@ -20,6 +20,7 @@ if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 
 endif
 
 call elysium#apply('Fg', s:palette.fg0, s:palette.none)
+call elysium#apply('FgStrong', s:palette.fg1, s:palette.none)
 call elysium#apply('Red', s:palette.red, s:palette.none)
 call elysium#apply('Orange', s:palette.orange, s:palette.none)
 call elysium#apply('Yellow', s:palette.yellow, s:palette.none)
@@ -238,9 +239,9 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
 endif
 
 if has('nvim')
-	hi! link @variable Fg
+	hi! link @variable FgStrong
 	hi! link @variable.builtin Purple
-	hi! link @variable.parameter Fg
+	hi! link @variable.parameter FgStrong
 	hi! link @variable.parameter.builtin Yellow
 	hi! link @variable.member Red
 
@@ -342,6 +343,6 @@ if has('nvim')
 	hi! link @tag.attribute Red
 	hi! link @tag.delimiter FgDim
 
-	hi! link @variable.member.nix Fg
+	hi! link @variable.member.nix FgStrong
 	hi! link @keyword.modifier.java BlueEmph
 endif

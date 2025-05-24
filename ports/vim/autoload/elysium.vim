@@ -40,6 +40,7 @@ func! elysium#get_palette(colors_override, eightbit)
 	else
 		" custom palette using colors 232-255, requires
 		" terminal to be configured specifically for this
+		" TODO: document this custom palette
 		let palette = {
 			\ 'bg0':       ['#ffffff', '232' ],
 			\ 'bg1':       ['#f4f4f4', '233' ],
