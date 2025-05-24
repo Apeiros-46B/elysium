@@ -7,9 +7,8 @@ bg4 = "#dfdfdf" # -5
 bg5 = "#dcdcdc" # -3
 fg0 = "#333333"
 fg1 = "#202020"
-fg3 = "#000000"
-fg4 = "#777777"
-fg5 = "#888888"
+fg2 = "#000000"
+fg3 = "#777777"
 
 # TODO: make brighter variants of these (e.g. for terminal brights)
 red    = "#904961" # oklch(50% 0.1 0)

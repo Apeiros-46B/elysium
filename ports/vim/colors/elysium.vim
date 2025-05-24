@@ -1,5 +1,5 @@
 let s:config = elysium#get_config()
-let s:palette = elysium#get_palette(s:config.colors_override)
+let s:palette = elysium#get_palette(s:config.colors_override, s:config.eightbit)
 
 let s:emph = s:config.emphasis_style
 if s:emph !=# 'bold' && s:emph !=# 'italic'
@@ -45,14 +45,14 @@ call elysium#apply('Folded', s:palette.fg3, s:palette.bg1)
 call elysium#apply('FoldColumn', s:palette.bg5, s:palette.none)
 call elysium#apply('SignColumn', s:palette.fg0, s:palette.none)
 call elysium#apply('ToolbarLine', s:palette.fg0, s:palette.bg2)
-call elysium#apply('IncSearch', s:palette.bg0, s:palette.green)
-call elysium#apply('Search', s:palette.green, s:palette.bg_green)
+call elysium#apply('IncSearch', s:palette.bg0, s:palette.aqua)
+call elysium#apply('Search', s:palette.aqua, s:palette.bg_aqua)
 call elysium#apply('Conceal', s:palette.fg3, s:palette.none)
 call elysium#apply('Cursor', s:palette.none, s:palette.none, 'reverse')
 call elysium#apply('CursorLine', s:palette.none, s:palette.bg1)
 call elysium#apply('CursorColumn', s:palette.none, s:palette.bg1)
 call elysium#apply('LineNr', s:palette.bg5, s:palette.none)
-call elysium#apply('CursorLineNr', s:palette.fg4, s:palette.bg1)
+call elysium#apply('CursorLineNr', s:palette.fg3, s:palette.bg1)
 call elysium#apply('DiffAdd', s:palette.green, s:palette.bg_green)
 call elysium#apply('DiffDelete', s:palette.red, s:palette.bg_red)
 call elysium#apply('DiffChange', s:palette.blue, s:palette.bg_blue)
@@ -67,10 +67,10 @@ call elysium#apply('NonText', s:palette.bg5, s:palette.none)
 call elysium#apply('SpecialKey', s:palette.bg5, s:palette.none)
 call elysium#apply('Pmenu', s:palette.fg0, s:palette.bg2)
 call elysium#apply('PmenuSbar', s:palette.none, s:palette.bg2)
-call elysium#apply('PmenuSel', s:palette.bg0, s:palette.bg_blue)
+call elysium#apply('PmenuSel', s:palette.fg0, s:palette.bg_blue)
 call elysium#apply('PmenuKind', s:palette.green, s:palette.bg2)
 call elysium#apply('PmenuExtra', s:palette.fg3, s:palette.bg2)
-call elysium#apply('PmenuThumb', s:palette.none, s:palette.fg4)
+call elysium#apply('PmenuThumb', s:palette.none, s:palette.fg3)
 call elysium#apply('NormalFloat', s:palette.fg0, s:palette.bg2)
 call elysium#apply('FloatBorder', s:palette.fg3, s:palette.bg2)
 call elysium#apply('FloatTitle', s:palette.fg0, s:palette.bg2, 'bold')
@@ -85,7 +85,7 @@ call elysium#apply('StatusLineNC', s:palette.fg3, s:palette.bg1)
 call elysium#apply('StatusLineTermNC', s:palette.fg3, s:palette.bg1)
 call elysium#apply('TabLine', s:palette.fg3, s:palette.bg3)
 call elysium#apply('TabLineFill', s:palette.fg3, s:palette.bg1)
-call elysium#apply('TabLineSel', s:palette.bg0, s:palette.green)
+call elysium#apply('TabLineSel', s:palette.fg0, s:palette.bg_blue)
 call elysium#apply('VertSplit', s:palette.bg0, s:palette.bg0)
 call elysium#apply('Visual', s:palette.none, s:palette.bg_purple)
 call elysium#apply('VisualNOS', s:palette.none, s:palette.bg_purple)
@@ -191,9 +191,9 @@ hi! link Character Aqua
 hi! link Constant Purple
 hi! link Macro Purple
 hi! link Identifier Red
-hi! link Added DiffAdd
-hi! link Removed DiffDelete
-hi! link Changed DiffChange
+hi! link Added Green
+hi! link Removed Red
+hi! link Changed Blue
 
 call elysium#apply('ErrorText', s:palette.none, s:palette.none, 'undercurl', s:palette.red)
 call elysium#apply('WarningText', s:palette.none, s:palette.none, 'undercurl', s:palette.yellow)

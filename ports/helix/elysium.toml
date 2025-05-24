@@ -65,20 +65,20 @@
 "ui.linenr" = "bg5"
 "ui.linenr.selected" = "fg3"
 "ui.statusline" = { fg = "fg3", bg = "bg2" }
-"ui.statusline.inactive" = { fg = "fg4", bg = "bg1" }
+"ui.statusline.inactive" = { fg = "fg3", bg = "bg1" }
 "ui.statusline.normal" = { fg = "fg3", bg = "bg_green" }
 "ui.statusline.insert" = { fg = "fg3", bg = "bg_blue" }
 "ui.statusline.select" = { fg = "fg3", bg = "bg_purple" }
-"ui.statusline.separator" = "fg4"
+"ui.statusline.separator" = "fg3"
 "ui.bufferline" = { fg = "fg3", bg = "bg2" }
-"ui.bufferline.active" = { fg = "fg1", bg = "bg_green" }
+"ui.bufferline.active" = { fg = "fg1", bg = "bg_blue" }
 "ui.bufferline.background".bg = "bg0"
 "ui.popup".bg = "bg1"
 "ui.window".fg = "bg0"
 "ui.help" = { fg = "fg3", bg = "bg1" }
 "ui.text".fg = "fg1"
 "ui.text.focus".fg = "fg1"
-"ui.text.inactive".fg = "fg4"
+"ui.text.inactive".fg = "fg3"
 "ui.text.directory".fg = "blue"
 "ui.virtual.whitespace" = "bg5"
 "ui.virtual.ruler".bg = "bg1"
@@ -104,7 +104,6 @@ fg0 = "#333333"
 fg1 = "#202020"
 fg2 = "#000000"
 fg3 = "#777777"
-fg4 = "#888888"
 
 red    = "#904961"
 orange = "#934c3d"
