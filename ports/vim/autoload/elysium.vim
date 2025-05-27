@@ -18,6 +18,7 @@ func! elysium#get_palette(colors_override, eightbit)
 			\ 'bg3':       ['#e4e4e4', '252' ],
 			\ 'bg4':       ['#dfdfdf', '251' ],
 			\ 'bg5':       ['#dcdcdc', '250' ],
+			\ 'bg_cursor': ['#fafafa', '254' ],
 			\ 'fg0':       ['#333333', '232' ],
 			\ 'fg1':       ['#202020', '232' ],
 			\ 'fg2':       ['#000000', '232' ],

@@ -10,6 +10,8 @@ fg1 = "#202020"
 fg2 = "#000000"
 fg3 = "#777777"
 
+bg_cursor = "#fafafa"
+
 # TODO: make brighter variants of these (e.g. for terminal brights)
 red    = "#904961" # oklch(50% 0.1 0)
 orange = "#934c3d" # oklch(50% 0.1 33)

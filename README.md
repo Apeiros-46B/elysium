@@ -21,11 +21,12 @@ Foreground and background shades are still temporary at this point and you can b
 |name      |hex      |original definition             |meaning                                                                                   |
 |----------|---------|--------------------------------|------------------------------------------------------------------------------------------|
 |bg0       |`#ffffff`|hex                             |primary background                                                                        |
-|bg1       |`#f4f4f4`|hex                             |secondary background, current line, unfocused statusline                                  |
+|bg1       |`#f4f4f4`|hex                             |secondary background, unfocused statusline                                                |
 |bg2       |`#ebebeb`|hex                             |tertiary background, focused statusline                                                   |
 |bg3       |`#e4e4e4`|hex                             |TBD                                                                                       |
 |bg4       |`#dfdfdf`|hex                             |TBD                                                                                       |
 |bg5       |`#dcdcdc`|hex                             |TBD                                                                                       |
+|bg_cursor |`#fafafa`|hex                             |current line, current column                                                              |
 |fg0       |`#333333`|hex                             |primary foreground                                                                        |
 |fg1       |`#202020`|hex                             |strong foreground                                                                         |
 |fg2       |`#000000`|hex                             |strong foreground                                                                         |

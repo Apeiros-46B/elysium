@@ -90,8 +90,8 @@
 "ui.selection.primary".bg = "bg_purple"
 "ui.highlight".bg = "bg_blue"
 "ui.highlight.frameline".bg = "bg_yellow"
-"ui.cursorline".bg = "bg1"
-"ui.cursorcolumn".bg = "bg1"
+"ui.cursorline".bg = "bg_cursor"
+"ui.cursorcolumn".bg = "bg_cursor"
 
 [palette]
 bg0 = "#ffffff"
@@ -104,6 +104,8 @@ fg0 = "#333333"
 fg1 = "#202020"
 fg2 = "#000000"
 fg3 = "#777777"
+
+bg_cursor = "#fafafa"
 
 red    = "#904961"
 orange = "#934c3d"
