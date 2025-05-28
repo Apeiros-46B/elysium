@@ -107,49 +107,20 @@ if has('nvim')
 	call elysium#apply('WinBarNC', s:palette.fg3, s:palette.bg1)
 	call elysium#apply('Whitespace', s:palette.bg4, s:palette.none)
 	call elysium#apply('Substitute', s:palette.bg4, s:palette.none)
+	call elysium#apply('DiagnosticUnderlineOk', s:palette.none, s:palette.none, 'underline', s:palette.green)
 	hi! link DiagnosticError Red
 	hi! link DiagnosticWarn Yellow
 	hi! link DiagnosticInfo Aqua
 	hi! link DiagnosticHint Blue
+	hi! link DiagnosticOk Green
 	hi! link DiagnosticUnderlineError ErrorText
 	hi! link DiagnosticUnderlineWarn WarningText
 	hi! link DiagnosticUnderlineInfo InfoText
 	hi! link DiagnosticUnderlineHint HintText
-	hi! link DiagnosticFloatingError ErrorFloat
-	hi! link DiagnosticFloatingWarn WarningFloat
-	hi! link DiagnosticFloatingInfo InfoFloat
-	hi! link DiagnosticFloatingHint HintFloat
-	hi! link DiagnosticVirtualTextError VirtualTextError
-	hi! link DiagnosticVirtualTextWarn VirtualTextWarning
-	hi! link DiagnosticVirtualTextInfo VirtualTextInfo
-	hi! link DiagnosticVirtualTextHint VirtualTextHint
-	hi! link DiagnosticSignError DiagnosticError
-	hi! link DiagnosticSignWarn DiagnosticWarn
-	hi! link DiagnosticSignInfo DiagnosticInfo
-	hi! link DiagnosticSignHint DiagnosticHint
-	hi! link LspDiagnosticsFloatingError DiagnosticFloatingError
-	hi! link LspDiagnosticsFloatingWarning DiagnosticFloatingWarn
-	hi! link LspDiagnosticsFloatingInformation DiagnosticFloatingInfo
-	hi! link LspDiagnosticsFloatingHint DiagnosticFloatingHint
-	hi! link LspDiagnosticsDefaultError DiagnosticError
-	hi! link LspDiagnosticsDefaultWarning DiagnosticWarn
-	hi! link LspDiagnosticsDefaultInformation DiagnosticInfo
-	hi! link LspDiagnosticsDefaultHint DiagnosticHint
-	hi! link LspDiagnosticsVirtualTextError DiagnosticVirtualTextError
-	hi! link LspDiagnosticsVirtualTextWarning DiagnosticVirtualTextWarn
-	hi! link LspDiagnosticsVirtualTextInformation DiagnosticVirtualTextInfo
-	hi! link LspDiagnosticsVirtualTextHint DiagnosticVirtualTextHint
-	hi! link LspDiagnosticsUnderlineError DiagnosticUnderlineError
-	hi! link LspDiagnosticsUnderlineWarning DiagnosticUnderlineWarn
-	hi! link LspDiagnosticsUnderlineInformation DiagnosticUnderlineInfo
-	hi! link LspDiagnosticsUnderlineHint DiagnosticUnderlineHint
-	hi! link LspDiagnosticsSignError DiagnosticSignError
-	hi! link LspDiagnosticsSignWarning DiagnosticSignWarn
-	hi! link LspDiagnosticsSignInformation DiagnosticSignInfo
-	hi! link LspDiagnosticsSignHint DiagnosticSignHint
 	hi! link LspReferenceText CurrentWord
 	hi! link LspReferenceRead CurrentWord
 	hi! link LspReferenceWrite CurrentWord
+	hi! link LspReferenceTarget CurrentWord
 	hi! link LspInlayHint InlayHints
 	hi! link LspCodeLens VirtualTextInfo
 	hi! link LspCodeLensSeparator VirtualTextHint
