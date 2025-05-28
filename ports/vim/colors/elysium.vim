@@ -7,9 +7,11 @@ if s:emph !=# 'bold' && s:emph !=# 'italic'
 endif
 let s:comment_italic = s:config.italic_comment ? 'italic' : 'NONE'
 
-hi clear
-if exists('syntax_on')
-	syn reset
+if exists('g:colors_name') && g:colors_name !=# 'elysium'
+	hi clear
+	if exists('syntax_on')
+		syn reset
+	endif
 endif
 
 let g:colors_name = 'elysium'
