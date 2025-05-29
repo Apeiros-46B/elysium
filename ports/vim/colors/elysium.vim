@@ -106,7 +106,7 @@ if has('nvim')
 	call elysium#apply('WinBar', s:palette.fg3, s:palette.bg2)
 	call elysium#apply('WinBarNC', s:palette.fg3, s:palette.bg1)
 	call elysium#apply('Whitespace', s:palette.bg4, s:palette.none)
-	call elysium#apply('Substitute', s:palette.bg4, s:palette.none)
+	call elysium#apply('Substitute', s:palette.yellow, s:palette.bg_yellow)
 	call elysium#apply('DiagnosticUnderlineOk', s:palette.none, s:palette.none, 'underline', s:palette.green)
 	hi! link DiagnosticError Red
 	hi! link DiagnosticWarn Yellow
