@@ -230,6 +230,7 @@ if has('nvim')
 	hi! link @string Aqua
 	hi! link @string.documentation Aqua
 	hi! link @string.regexp Yellow
+	hi! link @string.regexp.vim GreenEmph
 	hi! link @string.escape YellowEmph
 	hi! link @string.special Yellow
 	hi! link @string.special.symbol Yellow
