@@ -10,9 +10,9 @@ base06: "000000" # fg2
 base07: "ebebeb" # bg2
 base08: "904961" # red
 base09: "79508a" # purple
-base0A: "b5803e" # yellow
-base0B: "117555" # aqua
-base0C: "427138" # green
-base0D: "427138" # green
+base0A: "b38143" # yellow
+base0B: "406b75" # aqua
+base0C: "546b4f" # green
+base0D: "546b4f" # green
 base0E: "535d9c" # blue
-base0F: "934c3d" # orange
+base0F: "90502a" # orange

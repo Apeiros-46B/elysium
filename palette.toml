@@ -12,19 +12,18 @@ fg3 = "#777777"
 
 bg_cursor = "#fafafa"
 
-# TODO: make brighter variants of these (e.g. for terminal brights)
 red    = "#904961" # oklch(50% 0.1 0)
-orange = "#934c3d" # oklch(50% 0.1 33)
-yellow = "#b5803e" # oklch(64% 0.105 70)
-green  = "#427138" # oklch(50% 0.1 140)
-aqua   = "#117555" # oklch(50% 0.1 165)
+orange = "#90502a" # oklch(50% 0.1 50)
+yellow = "#b38143" # oklch(64% 0.1 70)
+green  = "#546b4f" # oklch(50% 0.05 140)
+aqua   = "#406b75" # oklch(50% 0.05 215)
 blue   = "#535d9c" # oklch(50% 0.1 275)
 purple = "#79508a" # oklch(50% 0.1 315)
 
 bg_red    = "#e9dbdf" # 20% opacity red over bg0
-bg_orange = "#e9dbd8" # 20% opacity orange over bg0
-bg_yellow = "#f0e6d8" # ditto
-bg_green  = "#d9e3d7" # etc
-bg_aqua   = "#cfe3dd"
-bg_blue   = "#dddfeb"
-bg_purple = "#e4dce8"
+bg_orange = "#e9dcd4" # 20% opacity orange over bg0
+bg_yellow = "#f0e6d9" # 20% opacity yellow over bg0
+bg_green  = "#dce2da" # 20% opacity green+0.02c (oklch(50% 0.07 140)) over bg0
+bg_aqua   = "#d5e2e5" # 20% opacity aqua+0.02c (oklch(50% 0.07 180)) over bg0
+bg_blue   = "#dddfeb" # 20% opacity blue over bg0
+bg_purple = "#e4dce8" # 20% opacity purple over bg0
