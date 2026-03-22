@@ -8,6 +8,8 @@ elysium is a neutral, muted light theme.
 - editors
   - [vim/neovim](https://github.com/Apeiros-46B/elysium/tree/main/ports/vim)
   - [helix](https://github.com/Apeiros-46B/elysium/tree/main/ports/helix)
+- audio/music software
+  - [vital (tested on v1.5.5)](https://github.com/Apeiros-46B/elysium/tree/main/ports/vital)
 - miscellaneous
   - [base16](https://github.com/Apeiros-46B/elysium/tree/main/ports/base16)
 
